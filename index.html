@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nara Cafe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('big-bg.png');
+            background-color: rgb(49, 21, 21);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .btn-custom {
+            width: 250px;
+            margin: 10px;
+            font-size: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 15px;
+            transition: background-color 0.3s, opacity 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+            opacity: 0.9;
+        }
+        .footer {
+            position: absolute;
+            bottom: 60px;
+            text-align: center;
+            width: 100%;
+        }
+        p{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mb-4">Nara Cafe</h1>
+        <a href="https://www.instagram.com/nara.restocafe?igsh=N3pta2l2Mzk5cnNi" class="btn btn-custom">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61556446534809&mibextid=ZbWKwL" class="btn btn-custom">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="menu.pdf" class="btn btn-custom">
+            <i class="fas fa-utensils"></i> Menu
+        </a>
+    </div>
+    <div class="footer">
+        <p>Opening hours: 7am till 2am</p>
+        <p>Only Sunday from 2pm till 2am</p>
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
