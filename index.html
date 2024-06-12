@@ -12,7 +12,7 @@
         body {
             background-image: url('big-bg.png');
             background-color: rgb(49, 21, 21);
-            background-size: cover; 
+            background-size: cover; /* Ensure the background image covers the entire container */
             background-position: center;
             height: 100vh; /* Set height to 100vh to fit the screen size */
             margin: 0;
@@ -27,6 +27,7 @@
         }
         .container {
             height: calc(45vh); /* Adjusted height to fit within the viewport */
+            overflow-y: auto; /* Enable scrolling within the container if necessary */
         }
         .btn-custom {
             width: 80%;
